@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgtext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="9dp"/>
+    <LinearLayout
+        android:id="@+id/eggricelayout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:padding="9dp"
+            android:gravity="center"
+            android:text="양배추 달걀 간장밥 "
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="9dp"
+            android:text="주재료 : 양배추 100g, 달걀 1개, 밥 1/3공기\n부재료 : 올리브유 1/3큰술, 간장 1/2큰술 "/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="9dp"
+            android:text="요리법"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="9dp"
+            android:text="1. 양배추를 곱게 채 썬다.\n2. 양배추를 비닐에 봉하여 전자레인지에 1분 30초간 가열한다.\n3. 팬에 기름을 두르고 달걀프라이를 한다.\n4. 그릇에 밥을 담고 익힌 양배추와 프라이를 올리고 간장을 곁들인다."/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/saladlayout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:padding="9dp"
+            android:gravity="center"
+            android:text="샐러드 "
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="9dp"
+            android:text="양배추 100g, 방울토마토 4개, 양파\n부재료 : 올리브유 1/3큰술, 레몬 1/8개, 올리브 4개"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="9dp"
+            android:text="요리법"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="9dp"
+            android:text="1. 준비한 채소들을 전부 씻어준다.\n2. 방울토마토와 올리브는 2등분하고, 양파는 채썰어 찬물에 담갔다 물기를 뺀다.\n3. 접시에 샐러드 채소, 양파를 담고 토마토 올리브를 올린 다음 먹기 직전에 레몬즙을 뿌린다."/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/salmonrice"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:padding="9dp"
+            android:gravity="center"
+            android:text="연어 덮밥 "
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="9dp"
+            android:text="생연어 130g, 밥 100g, 작은 양파 1개\n부재료 : 어린잎채소 1/2줌, 간장 1큰술, 물 3큰술, 와사비"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="9dp"
+            android:text="요리법"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="9dp"
+            android:text="1. 양파를 채 썰고, 그중 1/3만 물에 담가 매운맛을 제거하고 물기를 뺀다.\n2. 어린잎채소를 씻어서 채에 밭쳐 물기를 뺀다.\n3. 생연어는 두툼하게 썬다.\n4. 달군 팬에 물에 담그지 않는 양파, 간장을 넣어 졸이듯 볶아준다.\n5. 그릇에 밥을 담고 졸인 양파를 올린다.\n6. 생연어를 돌려 담고, 물에 담갔던 양파, 채소를 올려 와사비를 곁들인다."/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/mukshalayout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:padding="9dp"
+            android:gravity="center"
+            android:text="채소 묵사발 "
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="9dp"
+            android:text="도토리묵 200g, 달걀 1개, 씻은 김치 50g, 토마토 1/2개\n부재료 : 오이 1/4개, 깻잎 7장, 냉면육수 2/3컵"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="9dp"
+            android:text="요리법"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="9dp"
+            android:text="1. 달걀을 식초, 소금을 넣은 물에 삻아 껍질을 벗긴다.\n2. 토마토를 한 입 크기로 썰고 양파, 오이, 깻잎, 씻은 김치는 가늘게 채 썬다.\n3. 도토리묵을 한 입 크기의 막대 모양으로 썰고, 삶은 달걀은 4등분한다.\n4. 그릇에 도토리묵, 채소, 김치, 달걀을 올리고 냉면 육수를 부어 깨소금을 뿌린다."/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/friedricelayout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:padding="9dp"
+            android:gravity="center"
+            android:text="두부 버섯 볶음밥"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="9dp"
+            android:text="주재료 : 두부 2모, 밥 450g, 브로콜리 2/3개, 새송이버섯 3개, 양파 1/2, 고추 3개\n부재료 : 굴소스 2큰술, 올리브유 2큰술"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="9dp"
+            android:text="요리법"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="9dp"
+            android:text="1. 두부를 수분을 제거하고 밀봉하여 냉동실에 넣어 얼린다.\n2. 얼린 두부를 해동하여 남은 수분을 모두 제거하고 으깬다.\n3. 양파, 고추, 브로콜리, 새송이버섯을 잘게 다진다.\n4. 달군 냄비에 올리브유를 두르고 양파, 고추, 브로콜리, 버섯을 볶는다.\n5. 으깬 두부, 밥, 굴소스를 넣고 볶는다."/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/beetjuicelayout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:padding="9dp"
+            android:gravity="center"
+            android:text="비트 스무디"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="9dp"
+            android:text="주재료 : 비트 6개, 당근 3개\n부재료 : 사과 3개, 레몬즙 1컵, 물 8컵"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="9dp"
+            android:text="요리법"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="9dp"
+            android:text="1. 비트와 당근의 껍질을 벗기고 적당한 크기로 썬다.\n2. 냄비에 비트와 당근, 물을 넣고 20분간 끓인 다음 식힌다.\n3. 사과를 적당한 크기로 잘라주고 믹서기로 비트와 당근과 함께 레몬즙을 넣고 갈아준다."/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="냉장고 추천 레시피"
+        android:textSize="30dp"
+        android:padding="9dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/recipeview"
+        android:textSize="20dp" />
+
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+        <LinearLayout
+            android:id="@+id/layout1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+            <ImageButton
+                android:id="@+id/eggrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/eggrice1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  양배추 달걀 간장밥 "
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:padding="9dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+            <ImageButton
+                android:id="@+id/salad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/salad1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="샐러드"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:padding="9dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+        <LinearLayout
+            android:id="@+id/layout2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+            <ImageButton
+                android:id="@+id/salmonrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/salmonrice1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  연어 덮밥 "
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:padding="9dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+            <ImageButton
+                android:id="@+id/muksha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/muksha1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="채소 묵사발"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:padding="9dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+        <LinearLayout
+            android:id="@+id/layout3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+            <ImageButton
+                android:id="@+id/friedrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/friedrice1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  두부 버섯 볶음밥 "
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:padding="9dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+            <ImageButton
+                android:id="@+id/beetjuice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/beetjuice1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="비트 스무디"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:padding="9dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

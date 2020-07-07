@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="운동"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="  체중을 입력해주세요.  "
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="칼로리를 입력해주세요."
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="80dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:background="@drawable/checkbtn2"
+        android:textSize="20dp" />
+    <RadioGroup
+        android:visibility="invisible"
+        android:id="@+id/Group1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <RadioButton
+            android:textSize="15dp"
+            android:id="@+id/Rwalk"
+            android:text="도보 걷기"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/Rstairs"
+            android:text="계단 오르기"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/Rmount"
+            android:text="등산"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/Rswim"
+            android:text="수영"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/Ryoga"
+            android:text="요가"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/Rbox"
+            android:text="복싱"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/Rroof"
+            android:text="줄넘기"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/Rbic"
+            android:text="자전거타기"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/Rrun"
+            android:text="달리기"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/Rsquart"
+            android:text="스쿼트"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/Rcycle"
+            android:text="사이클"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/btn2"
+
+        android:background="@drawable/choosebtn"
+        android:layout_width="80dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
